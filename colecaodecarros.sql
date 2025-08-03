@@ -1,4 +1,4 @@
-create DATABASE colecaodecarros;
+CREATE DATABASE colecaodecarros;
 
 CREATE TABLE colecaodecarros(placa VARCHAR(10) PRIMARY KEY not NULL, 
                   modelo VARCHAR(40) NOT NULL, 
@@ -33,4 +33,5 @@ insert into colecaodecarros values ('KNC0755', 'civictyper', 2002, 'nissan', 'ja
 insert into colecaodecarros values ('KZS1759', 'navara', 2017, 'nissan', 'japao', 'suv');
 insert into colecaodecarros values ('LGD4513', 'kimmyjb74', 2017, 'suzuki', 'japao', 'suv');
 insert into colecaodecarros values ('LNH0383', 'h5', 2023, 'gwm', 'china', 'suv');
+
 insert into colecaodecarros values ('LPH8407', 'santafe', 2023, 'hyuday', 'coreiadosul', 'suv');
