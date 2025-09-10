@@ -1,5 +1,3 @@
-CREATE DATABASE colecaodecarros;
-
 CREATE TABLE colecaodecarros(placa VARCHAR(10) PRIMARY KEY not NULL, 
                   modelo VARCHAR(40) NOT NULL, 
                   ano INT, 
@@ -65,3 +63,4 @@ INSERT INTO colecaodecarros (placa, modelo, ano, fabricante, país, categoria)
 VALUES ('LDW0256', 'Tank 700 Hi-T', 2023, 'GWM', 'China', 'suv');
 INSERT INTO colecaodecarros (placa, modelo, ano, fabricante, país, categoria)
 VALUES ('LSN2389', 'M Hero 917 ', 2023, 'M Hero', 'China', 'suv');
+
