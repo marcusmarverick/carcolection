@@ -63,5 +63,3 @@ INSERT INTO colecaodecarros (placa, modelo, ano, fabricante, país, categoria)
 VALUES ('LDW0256', 'Tank 700 Hi-T', 2023, 'GWM', 'china', 'suv');
 INSERT INTO colecaodecarros (placa, modelo, ano, fabricante, país, categoria)
 VALUES ('LSN2389', 'M Hero 917 ', 2023, 'M Hero', 'china', 'suv');
-
-SELECT * FROM colecaodecarros;
